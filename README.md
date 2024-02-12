@@ -1,8 +1,54 @@
-# JAVA[ASSIGNMENT-1]:
-addition(double first, double second): Takes two double values as input and returns their sum.
+# JAVA 
+## ASSIGNMENT-1:
+### CALCULATOR_ASSIGNMENT_1 Class
+#### Methods
+-->
+ADDITION
+Parameters: double First, double Second
+Description: Adds two numbers and returns the result.
+-->
+SUBSTRACTION
+Parameters: double First, double Second
+Description: Subtracts the second number from the first and returns the result.
+-->
+MULTIPLICATION
+Parameters: double First, double Second
+Description: Multiplies two numbers and returns the result.
+-->
+DIVISION
+Parameters: double First, double Second
+Description: Divides the first number by the second and returns the result.
+-->
+POWER
+Parameters: double First, double Second
+Description: Raises the first number to the power of the second number using Math.pow and returns the result.
+-->
+MEAN
+Parameters: None
+Description: Takes user input for a set of numbers until "end" is entered, calculates the mean, and returns the result.
+-->
+VAR
+Parameters: None
+Description: Takes user input for an array of numbers, calculates the variance, and returns the result.
 
-var(): Calculates the variance of an array of double values, prompting the user to input the size and individual elements, and then returning the calculated variance.
+### INPUT_ASSIGNMENT_1 Class
+#### Methods
+-->
+INPUT_NUMBERS
+Parameters: None
+Description: Takes user input for two numbers and returns them as an array.
 
-inputNumbers(): Prompts the user to input two double values (first and second numbers) using the Scanner class, stores them in an array, and returns the array of double numbers.
+### MAIN_1_ASSIGNMENT_1 Class
+#### Main Method
+-->
+Description: Allows the user to choose from various mathematical operations including addition, subtraction, multiplication, division, mean calculation, squaring, square root, and variance calculation. It utilizes the CALCULATOR_ASSIGNMENT_1 class for performing calculations and the INPUT_ASSIGNMENT_1 class to get user input.
 
-main(String args[]): The main method of the program, where an instance of input and Calculator classes are created. It presents a menu for various mathematical operations, takes user input, performs the selected operation using the Calculator class methods, and displays the result. The program supports addition, subtraction, multiplication, division, mean calculation, squaring, square root calculation, and variance calculation.
+
+## ASSIGNMENT-2:
+PART_2_ASSIGNMENT_1 Class
+Methods
+GetData
+Parameters: None
+Description: Reads a line of data from the user using BufferedReader and prints the parsed integer value.
+Main Method
+Description: Creates an instance of PART_2_ASSIGNMENT_1 and calls the GetData method to demonstrate basic data input functionality
