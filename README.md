@@ -98,7 +98,9 @@ public static void main(String[] args)
 The MAIN_2_ASSIGNMENT_2 class serves as the entry point for the program. It creates instances of INPUT_ASSIGNMENT_2 and PARTS_ASSIGNMENT_2 to perform various operations on the input array.
 
 => It instantiates an INPUT_ASSIGNMENT_2 object to obtain user input for the array.
+
 => It then creates a PARTS_ASSIGNMENT_2 object to perform operations on the array, including displaying even and odd numbers, finding the index with the smallest distance between adjacent elements, and creating an ArrayList.
+
 => The results are printed to the console.
 
 ### PARTS_ASSIGNMENT_2 Class
