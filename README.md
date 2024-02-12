@@ -82,3 +82,39 @@ Description: Reads a line of data from the user using BufferedReader and prints 
 Main Method
 
 Description: Creates an instance of PART_2_ASSIGNMENT_1 and calls the GetData method to demonstrate basic data input functionality
+
+
+## ASSIGNMENT-2:
+### INPUT_ASSIGNMENT_2 Class
+#### int[] INPUT_DATA()
+
+-->
+This method within the INPUT_ASSIGNMENT_2 class is responsible for taking user input to create an integer array. It prompts the user to enter the size of the array and then populates the array with user-provided integer values. The method returns the populated array.
+
+### MAIN_2_ASSIGNMENT_2 Class
+
+-->
+public static void main(String[] args)
+The MAIN_2_ASSIGNMENT_2 class serves as the entry point for the program. It creates instances of INPUT_ASSIGNMENT_2 and PARTS_ASSIGNMENT_2 to perform various operations on the input array.
+
+=> It instantiates an INPUT_ASSIGNMENT_2 object to obtain user input for the array.
+=> It then creates a PARTS_ASSIGNMENT_2 object to perform operations on the array, including displaying even and odd numbers, finding the index with the smallest distance between adjacent elements, and creating an ArrayList.
+=> The results are printed to the console.
+
+### PARTS_ASSIGNMENT_2 Class
+
+-->
+#### void PART1(int[] Data)
+
+-->
+This method takes an integer array (Data) as input and separates its elements into two arrays: one for even numbers and another for odd numbers. It prints the original array, even numbers, and odd numbers to the console.
+
+#### int PART2(int[] Data)
+
+-->
+The PART2 method accepts an integer array (Data) as input and calculates the differences between adjacent elements. It identifies the index of the first number with the smallest distance to its next neighbor (excluding zero differences). The method returns this index.
+
+#### ArrayList<Integer> PART3()
+
+-->
+This method utilizes the Scanner class to take user input for the size and values of an ArrayList. It prompts the user to enter the number of elements and the corresponding data. The method returns an ArrayList containing the entered values.
